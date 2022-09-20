@@ -1,5 +1,5 @@
 <?php
-include('conexao.php');
+include('conexao.php'); //chama o arquivo de conexão com o BD
 
 if (isset($_POST['envia'])) { //se existir a var submit, ele vai salvar os dados no banco
 
